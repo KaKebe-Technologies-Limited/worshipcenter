@@ -67,6 +67,10 @@
   border-style: none !important;
 
 }
+.downloadbtn:hover{
+  background-color: #007bff !important;
+  color: red !important;
+}
 
 html {
   font-family: sans-serif;
