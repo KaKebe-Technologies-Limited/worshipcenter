@@ -40,7 +40,18 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+.qtn input{
+  width: 300px;
+}
 
+.myBtn{
+  display: grid;
+  align-content: center;
+  margin: 40px;
+}
+.qtn sub{
+  background-color: var(--blue);
+}
 .visonarySection{
   padding: 40px;
 }
@@ -49,7 +60,13 @@
   border-color: #fff;
 }
 
+.downloadbtn{
+  color: white !important;
+  background-color: var(--blue) !important;
+  border-color: inherit !important;
+  border-style: none !important;
 
+}
 
 html {
   font-family: sans-serif;
