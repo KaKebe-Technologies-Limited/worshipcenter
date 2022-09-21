@@ -4,6 +4,14 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ /* PRAYER REQUEST */
+ .prayer-request{
+  margin: 20px;
+ }
+ .share-testimonies{
+  margin: 20px;
+ }
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
