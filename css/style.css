@@ -12,6 +12,18 @@
  .share-testimonies{
   margin: 20px;
  }
+
+ .videos-live{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+ }
+ .videos-live div{
+  
+ }
+ .ftco-section h2{
+  text-align: center;
+  align-items: center;
+ }
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
