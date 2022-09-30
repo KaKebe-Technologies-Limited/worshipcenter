@@ -30,21 +30,21 @@
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html"><i class="flaticon-cross"></i> <span>Worship</span> <span>Center</span></a>
+	      <a class="navbar-brand" href="index.php"><i class="flaticon-cross"></i> <span>Worship</span> <span>Center</span></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	          <li class="nav-item active"><a href="events.html" class="nav-link">Events</a></li>
+	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
+	          <li class="nav-item active"><a href="events.php" class="nav-link">Events</a></li>
 			  <!--<li class="nav-item"><a href="sermons.html" class="nav-link">Sermons</a></li> --> 
-			  <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
-			  <li class="nav-item active"><a href="faq.html" class="nav-link">FAQ</a></li>
+			  <li class="nav-item"><a href="gallery.php" class="nav-link">Gallery</a></li>
+			  <li class="nav-item active"><a href="faq.php" class="nav-link">FAQ</a></li>
 	          <!--<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li> -->
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -56,7 +56,7 @@
 			<div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-10 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
-            <p class="breadcrumbs mb-2" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Home</a></span> <span>Events</span></p>
+            <p class="breadcrumbs mb-2" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.php">Home</a></span> <span>Events</span></p>
             <h1 class="mb-3 mt-0 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Events</h1>
           </div>
         </div>
@@ -199,9 +199,9 @@
     						</p>
     					</div>
     					<div class="text">
-    						<h3 class="mb-2"><a href="events.html">Sunday Service</a></h3>
+    						<h3 class="mb-2"><a href="events.php">Sunday Service</a></h3>
     						<p class="mb-4"><span>Our live Sunday services</span></p>
-    						<a href="events.html" class="img mb-4" style="background-image: url(images/15.jpeg);"></a>
+    						<a href="events.php" class="img mb-4" style="background-image: url(images/15.jpeg);"></a>
     						<!-- <p>Live services taking place in Church with amazing experiences </p> -->
     					</div>
     				</div>
@@ -215,9 +215,9 @@
     						</p>
     					</div>
     					<div class="text">
-    						<h3 class="mb-2"><a href="events.html">Wednesdays </a></h3>
+    						<h3 class="mb-2"><a href="events.php">Wednesdays </a></h3>
     						<p class="mb-4"><span>Windows of Prayer </span></p>
-    						<a href="events.html" class="img mb-4" style="background-image: url(images/16.jpeg);"></a>
+    						<a href="events.php" class="img mb-4" style="background-image: url(images/16.jpeg);"></a>
     						<!-- <p>Live services taking place in Church with amazing experiences </p> -->
     					</div>
 					</div>
@@ -232,9 +232,9 @@
     						</p>
     					</div>
     					<div class="text">
-    						<h3 class="mb-2"><a href="events.html">Friday</a></h3>
+    						<h3 class="mb-2"><a href="events.php">Friday</a></h3>
     						<p class="mb-4"><span>Sessions of Discipleship classes</span></p>
-    						<a href="events.html" class="img mb-4" style="background-image: url(images/6.jpeg);"></a>
+    						<a href="events.php" class="img mb-4" style="background-image: url(images/6.jpeg);"></a>
 							<!-- <p>Live services taking place in Church with amazing experiences </p> -->
     					</div>
     				</div>
@@ -248,9 +248,9 @@
     						</p>
     					</div>
     					<div class="text">
-    						<h3 class="mb-2"><a href="events.html">Fridays</a></h3>
+    						<h3 class="mb-2"><a href="events.php">Fridays</a></h3>
     						<p class="mb-4"><span>Intercessory prayer starting</span></p>
-    						<a href="events.html" class="img mb-4" style="background-image: url(images/7.jpeg);"></a>
+    						<a href="events.php" class="img mb-4" style="background-image: url(images/7.jpeg);"></a>
 							<!-- <p>Live services taking place in Church with amazing experiences </p> -->
     					</div>
     				</div>
@@ -279,7 +279,7 @@
 			  <div class="row mb-5">
 				<div class="col-md">
 				  <div class="ftco-footer-widget mb-4">
-					<h2 class="logo"><i class="flaticon-cross"><a href="index.html"></i><span>Worship Center</span><span>Church</span></a></h2>
+					<h2 class="logo"><i class="flaticon-cross"><a href="index.php"></i><span>Worship Center</span><span>Church</span></a></h2>
 					<p>We are a cell-based community PAG Church in Lira City, Northern -Uganda.</p>
 				  </div>
 				</div>
@@ -287,9 +287,9 @@
 				  <div class="ftco-footer-widget mb-4 ml-md-5">
 					<h2 class="ftco-heading-2">Quick Links</h2>
 					<ul class="list-unstyled">
-					  <li><a href="about.html" class="py-2 d-block">About Us</a></li>
-					  <li><a href="events.html" class="py-2 d-block">Events</a></li>
-					  <li><a href="sermons.html" class="py-2 d-block">Sermons</a></li>
+					  <li><a href="about.php" class="py-2 d-block">About Us</a></li>
+					  <li><a href="events.php" class="py-2 d-block">Events</a></li>
+					  <li><a href="sermons.php" class="py-2 d-block">Sermons</a></li>
 				   
 					 
 	  

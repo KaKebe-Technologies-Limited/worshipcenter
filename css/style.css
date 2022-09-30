@@ -20,6 +20,10 @@
  .videos-live div{
   
  }
+ .panel-body{
+  font-size: 40px !important;
+  text-decoration: none;
+ }
  .ftco-section h2{
   text-align: center;
   align-items: center;

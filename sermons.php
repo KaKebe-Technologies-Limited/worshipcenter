@@ -1,3 +1,6 @@
+<?php
+ include_once 'config.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -20,36 +23,76 @@
 
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="css/jquery.timepicker.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
 	<!-- code for accordion -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+	<style>
+	.panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #EEEEEE;
+}
+
+.panel-default > .panel-heading {
+    padding: 0;
+    border-radius: 0;
+    color: #212121;
+    background-color: #FAFAFA;
+    border-color: #EEEEEE;
+}
+
+.panel-title {
+    font-size: 14px;
+}
+
+.panel-title > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.more-less {
+    float: right;
+    color: #212121;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #EEEEEE;
+}
+.demo {
+padding-top: 60px;
+padding-bottom: 60px;
+}
+	</style>
   </head>
   <body>
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-			<a class="navbar-brand" href="index.html"><i class="flaticon-cross"></i> <span> Worship</span> <span>Center</span></a>
+			<a class="navbar-brand" href="index.php"><i class="flaticon-cross"></i> <span> Worship</span> <span>Center</span></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	          <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li>
-			  <li class="nav-item active"><a href="sermons.html" class="nav-link">Sermons</a></li>
-			  <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
-	           <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="events.php" class="nav-link">Events</a></li>
+			  <li class="nav-item active"><a href="sermons.php" class="nav-link">Sermons</a></li>
+			  <li class="nav-item"><a href="gallery.php" class="nav-link">Gallery</a></li>
+	           <li class="nav-item"><a href="faq.php" class="nav-link">FAQ</a></li>
+	          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -61,7 +104,7 @@
 			<div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-10 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
-            <p class="breadcrumbs mb-2" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Home</a></span> <span>Sermons</span></p>
+            <p class="breadcrumbs mb-2" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.php">Home</a></span> <span>Sermons</span></p>
             <h1 class="mb-3 mt-0 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Sermons</h1>
           </div>
         </div>
@@ -95,21 +138,47 @@
 		</section>
 		    
 <div class="container">
-	<center><h1 style="margin-top:60px;margin-bottom:40px;">Recent Sermons</h1></center>
+<br><br><br>
+	<center><h1 style="padding-top:60px;margin-bottom:40px;font-size:40px;">Recent Sermons</h1></center>
 	<div class="accordion accordion-flush" id="accordionFlushExample">
-	  <div class="accordion-item">
-		<h2 class="accordion-header" id="flush-headingOne">
-		  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-			Serom title
-		  </button>
-		</h2>
-		<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-		  <div class="accordion-body">
-			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde consequatur saepe minima aperiam facere quod incidunt odio repellat eum suscipit.</p>
-		</div>
-		</div>
-	  </div>
-	  <div class="accordion-item">
+	<div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingTwo">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="more-less glyphicon glyphicon-plus"></i>
+                        <big>Get the latest sermons</big>
+						
+						<?php
+						// SQL QUERY
+						$query = "SELECT * FROM sermon ORDER BY sermonid DESC limit 1;";
+						
+						// FETCHING DATA FROM DATABASE
+						$result = mysqli_query($conn, $query);
+						while ($row = mysqli_fetch_array($result)){
+								echo '" "<h1 style="font-size:25px;">'.$row['sermontitle'].'<h1>';
+								// echo '<p>'.$row['sermondescription'].'<p>';
+							}?>
+						<!-- <i class='bx bx-plus'></i> -->
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body">
+				<?php
+						// SQL QUERY
+						$query = "SELECT * FROM sermon ORDER BY sermonid DESC limit 3;";
+						// FETCHING DATA FROM DATABASE
+						$result = mysqli_query($conn, $query);
+						while ($row = mysqli_fetch_array($result)){
+								// echo '" "<h1 style="font-size:30px;">'.$row['sermontitle'].'<h1>';
+								//  echo '<img src=" .$row['sermonbanner']";' 
+								echo '<p style="font-size:20px;">'.$row['sermondescription'].'<p>';
+							}?>
+                </div>
+            </div>
+        </div><br><br>
+	  
+	  <!-- <div class="accordion-item">
 		<h2 class="accordion-header" id="flush-headingTwo">
 		  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
 			Question 2
@@ -128,7 +197,7 @@
 		<div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
 		  <div class="accordion-body">lorem20</div>
 		</div>
-	  </div>
+	  </div> -->
 	</div>
 	  </div>
   
@@ -245,7 +314,7 @@
 		  <div class="row mb-5">
 			<div class="col-md">
 			  <div class="ftco-footer-widget mb-4">
-				<h2 class="logo"><i class="flaticon-cross"><a href="index.html"></i><span>Worship Center</span><span>Church</span></a></h2>
+				<h2 class="logo"><i class="flaticon-cross"><a href="index.php"></i><span>Worship Center</span><span>Church</span></a></h2>
 				<p>We are a cell-based community PAG Church in Lira City, Northern -Uganda.</p>
 			  </div>
 			</div>
@@ -253,9 +322,9 @@
 			  <div class="ftco-footer-widget mb-4 ml-md-5">
 				<h2 class="ftco-heading-2">Quick Links</h2>
 				<ul class="list-unstyled">
-				  <li><a href="about.html" class="py-2 d-block">About Us</a></li>
-				  <li><a href="events.html" class="py-2 d-block">Events</a></li>
-				  <li><a href="sermons.html" class="py-2 d-block">Sermons</a></li>
+				  <li><a href="about.php" class="py-2 d-block">About Us</a></li>
+				  <li><a href="events.php" class="py-2 d-block">Events</a></li>
+				  <li><a href="sermons.php" class="py-2 d-block">Sermons</a></li>
 			   
 				 
   
@@ -309,7 +378,16 @@
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
-
+	<script>
+		function toggleIcon(e) {
+    $(e.target)
+        .prev('.panel-heading')
+        .find(".more-less")
+        .toggleClass('glyphicon-plus glyphicon-minus');
+}
+$('.panel-group').on('hidden.bs.collapse', toggleIcon);
+$('.panel-group').on('shown.bs.collapse', toggleIcon);
+	</script>
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/popper.min.js"></script>

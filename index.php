@@ -78,21 +78,21 @@
         <div class="logo-div">
           <img src="images/paglogo.png" alt="">
         </div>
-	      <a class="navbar-brand" href="index.html"><i class="flaticon-cross"></i> <span> Worship</span> <span>Center</span></a>
+	      <a class="navbar-brand" href="index.php"><i class="flaticon-cross"></i> <span> Worship</span> <span>Center</span></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	          <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li>
-             <li class="nav-item"><a href="sermons.html" class="nav-link">Sermons</a></li>
-            <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
-	           <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
+	          <li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="events.php" class="nav-link">Events</a></li>
+             <li class="nav-item"><a href="sermons.php" class="nav-link">Sermons</a></li>
+            <li class="nav-item"><a href="gallery.php" class="nav-link">Gallery</a></li>
+	           <li class="nav-item"><a href="faq.php" class="nav-link">FAQ</a></li>
              
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
 
 	        </ul>
 	      </div>
@@ -629,7 +629,7 @@
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="logo"><i class="flaticon-cross"><a href="index.html"></i><span>Worship Center</span><span>Church</span></a></h2>
+              <h2 class="logo"><i class="flaticon-cross"><a href="index.php"></i><span>Worship Center</span><span>Church</span></a></h2>
               <p>We are a cell-based community PAG Church in Lira City, Northern -Uganda.</p>
             </div>
           </div>
@@ -637,9 +637,9 @@
             <div class="ftco-footer-widget mb-4 ml-md-5">
               <h2 class="ftco-heading-2">Quick Links</h2>
               <ul class="list-unstyled">
-                <li><a href="about.html" class="py-2 d-block">About Us</a></li>
-                <li><a href="events.html" class="py-2 d-block">Events</a></li>
-                <li><a href="sermons.html" class="py-2 d-block">Sermons</a></li>
+                <li><a href="about.php" class="py-2 d-block">About Us</a></li>
+                <li><a href="events.php" class="py-2 d-block">Events</a></li>
+                <li><a href="sermons.php" class="py-2 d-block">Sermons</a></li>
              
                
 
