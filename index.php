@@ -78,7 +78,7 @@
         <div class="logo-div">
           <img src="images/paglogo.png" alt="">
         </div>
-	      <a class="navbar-brand" href="index.php"><i class="flaticon-cross"></i> <span> Worship</span> <span>Center</span></a>
+	      <a class="navbar-brand" href="index.php"><i class="flaticon-ross"></i> <span> Worship</span> <span>Center</span></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
