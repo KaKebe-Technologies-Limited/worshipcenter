@@ -82,7 +82,7 @@
 										</p>
 									</div>
 									<div class="button">
-										<p><a href="#" class="btn btn-primary p-3">Marriage Conference</a></p>
+										<p><a href="#ftco-section-event" class="btn btn-primary p-3">Marriage Conference</a></p>
 									</div>
 								</div>
 							</div>
@@ -93,7 +93,7 @@
 		</section>
 
 		
-		<section class="ftco-section">
+		<section class="ftco-section" id="ftco-section-event" >
 			<div class="container">
 			  <div class="row justify-content-center mb-5 pb-5">
 				<div class="col-md-6 text-center heading-section ftco-animate">
@@ -112,7 +112,7 @@
 						<br>
 						<h3>Marriage Review</h3>
 						<p>Marriage Review conference is a special program brought together by PAG Worship Center Downtown Lira City open for all couples from any church and community. Guest speakers are Ps Jesse & Brenda McNeil from United States of America. A free conference designed to strengthen, heal and add fire to your marriage, conducted. Its a three day evening program starting at 5:00 pm - 8:00 pm.</p>
-						
+
 							  <h6>Date: 24-26 October 2022 | Venue: PAG Worship Center Downtown Lira City | Time: 5-7pm	 </h6> <br>
 							  <p><a href="https://forms.gle/hj25qxFRVaniwv2N6" class="btn btn-primary p-3">Register to be Part</a></p>
 					</div>
