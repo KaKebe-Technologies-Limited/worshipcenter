@@ -29,12 +29,13 @@
   <body>
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand" href="index.php"><i class="flaticon-cross"></i> <span>Worship</span> <span>Center</span></a>
+	  <div class="logo-div">
+          <img src="images/paglogo.png" alt="">
+        </div>
+	      <a class="navbar-brand" href="index.php"><i class="flaticon-cross"></i> <span> Worship</span> <span>Center</span></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
-
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
@@ -50,7 +51,7 @@
 	  </nav>
     <!-- END nav -->
 
-    <section id="home" class="video-hero js-fullheight" style="height: 700px; background-image: url(images/25.jpeg);  background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
+    <section id="home" class="video-hero js-fullheight" style="height: 700px; background-image: url(images/events/marriage.png);  background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
 			<div class="overlay js-fullheight"></div>
 			<div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
@@ -111,7 +112,7 @@
 					<div class="event-title">
 						<br>
 						<h3>Marriage Review</h3>
-						<p>Marriage Review conference is a special program brought together by PAG Worship Center Downtown Lira City open for all couples from any church and community. Guest speakers are Ps Jesse & Brenda McNeil from United States of America. A free conference designed to strengthen, heal and add fire to your marriage, conducted. Its a three day evening program starting at 5:00 pm - 8:00 pm.</p>
+						<p style="padding:10px; text-align:justify">Marriage Review conference is a special program brought together by PAG Worship Center Downtown Lira City open for all couples from any church and community. Guest speakers are Ps Jesse & Brenda McNeil from United States of America. A free conference designed to strengthen, heal and add fire to your marriage, conducted. Its a three day evening program starting at 5:00 pm - 8:00 pm.</p>
 
 							  <h6>Date: 24-26 October 2022 | Venue: PAG Worship Center Downtown Lira City | Time: 5-7pm	 </h6> <br>
 							  <p><a href="https://forms.gle/hj25qxFRVaniwv2N6" class="btn btn-primary p-3">Register to be Part</a></p>
