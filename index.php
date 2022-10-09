@@ -138,9 +138,9 @@
                     <h5 class="thoughts"> </h5>
                     <div class="button">
                       <!-- ask questions -->
-                      <p><a href="#testimonies-id" class="btn btn-primary p-3">Share your testimonies.</a></p>
+                      <p><a href="#testimonies-id" class="btn btn-primary p-3">Fundraising Giving Option.</a></p>
                     </div>
-                    <p class="thoughts">Has the Lord done something great in your life? Please Share</p>
+                    <p class="thoughts">MTN MoMo Code: 501717 registered as PETER </p>
 									</div>
 								</div>
 
