@@ -6,6 +6,15 @@ body {
   color: gray;
   background: #e9ecef;
 }
+@media screen and (max-width: 600px) {
+  .event-upcoming{
+    padding: 20px;
+  }
+  .event-title p{
+    padding: 20px;
+  }
+  
+}
 
 a {
   -webkit-transition: .3s all ease;

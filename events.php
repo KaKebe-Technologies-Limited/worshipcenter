@@ -40,10 +40,9 @@
 	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
 	          <li class="nav-item active"><a href="events.php" class="nav-link">Events</a></li>
-			  <!--<li class="nav-item"><a href="sermons.html" class="nav-link">Sermons</a></li> --> 
-			  <li class="nav-item"><a href="gallery.php" class="nav-link">Gallery</a></li>
-			  <li class="nav-item active"><a href="faq.php" class="nav-link">FAQ</a></li>
-	          <!--<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li> -->
+             <li class="nav-item"><a href="sermons.php" class="nav-link">Sermons</a></li>
+            <li class="nav-item"><a href="gallery.php" class="nav-link">Gallery</a></li>
+	           <li class="nav-item"><a href="faq.php" class="nav-link">FAQ</a></li>
 	          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
@@ -83,7 +82,7 @@
 										</p>
 									</div>
 									<div class="button">
-										<p><a href="#" class="btn btn-primary p-3">Standout 43 Edition</a></p>
+										<p><a href="#" class="btn btn-primary p-3">Marriage Conference</a></p>
 									</div>
 								</div>
 							</div>
@@ -95,6 +94,37 @@
 
 		
 		<section class="ftco-section">
+			<div class="container">
+			  <div class="row justify-content-center mb-5 pb-5">
+				<div class="col-md-6 text-center heading-section ftco-animate">
+				  <span class="subheading">Church Events</span>
+				  <h2 class="mb-4">Upcoming Events</h2>
+				  <p>Bringing to you our monthly specials that keeps you strengthen in faith</i></p>
+				</div>
+			  </div>
+			  <div class="row">
+				<!-- event card  -->
+				<div class="event-upcoming">
+					<div class="image-event">
+						<img src="images/events/marriage.png" height="auto" width="100%" alt="">
+					</div>
+					<div class="event-title">
+						<br>
+						<h3>Marriage Review</h3>
+						<p>Marriage Review conference is a special program brought together by PAG Worship Center Downtown Lira City open for all couples from any church and community. Guest speakers are Ps Jesse & Brenda McNeil from United States of America. A free conference designed to strengthen, heal and add fire to your marriage, conducted. Its a three day evening program starting at 5:00 pm - 8:00 pm.</p>
+						
+							  <h6>Date: 24-26 October 2022 | Venue: PAG Worship Center Downtown Lira City | Time: 5-7pm	 </h6> <br>
+							  <p><a href="https://forms.gle/hj25qxFRVaniwv2N6" class="btn btn-primary p-3">Register to be Part</a></p>
+					</div>
+				</div>
+				<!-- end of event card  -->
+			  </div>
+			  
+			  </div>
+			</div>
+		  </section>
+
+		  <section class="ftco-section">
 			<div class="container">
 			  <div class="row justify-content-center mb-5 pb-5">
 				<div class="col-md-6 text-center heading-section ftco-animate">
@@ -183,6 +213,7 @@
 			  </div>
 			</div>
 		  </section>
+		
 		
 		<section class="ftco-section ftco-section-2">
 			<div class="container">
@@ -275,68 +306,70 @@
 		</section>
 
 		<footer class="ftco-footer ftco-bg-dark ftco-section">
-			<div class="container">
-			  <div class="row mb-5">
-				<div class="col-md">
-				  <div class="ftco-footer-widget mb-4">
-					<h2 class="logo"><i class="flaticon-cross"><a href="index.php"></i><span>Worship Center</span><span>Church</span></a></h2>
-					<p>We are a cell-based community PAG Church in Lira City, Northern -Uganda.</p>
-				  </div>
-				</div>
-				<div class="col-md">
-				  <div class="ftco-footer-widget mb-4 ml-md-5">
-					<h2 class="ftco-heading-2">Quick Links</h2>
-					<ul class="list-unstyled">
-					  <li><a href="about.php" class="py-2 d-block">About Us</a></li>
-					  <li><a href="events.php" class="py-2 d-block">Events</a></li>
-					  <li><a href="sermons.php" class="py-2 d-block">Sermons</a></li>
-				   
-					 
-	  
-					</ul>
-				  </div>
-				</div>
-				<div class="col-md">
-				   <div class="ftco-footer-widget mb-4">
-					<h2 class="ftco-heading-2">Contact Information</h2>
-					<ul class="list-unstyled">
-					  <!-- <li><a href="#" class="py-2 d-block">Next to Gas Petrol Station, Ireda Lumumba, Lira City</a></li> -->
-				 
-					  <li><a href="#" class="py-2 d-block">worshipcenterlira@gmail.com</a></li>
-					  <li><a href="#" class="py-2 d-block">+256 760 111 806 </a></li>
-					  
-					
-					</ul>
-				  </div>
-				</div>
-				<div class="col-md">
-				  <div class="ftco-footer-widget mb-4">
-					  <div class="block-23 mb-3">
-						<ul>
-						 
-						  <li><a href="#"><span class="icon icon-phone"></span><span class="text">+256 760 111 806</span></a></li>
-						<li><span class="icon icon-map-marker"></span> <span class="text"> Behind Golden Park, Near Juba Market Lira City</span></li>
-						  <li><span class="icon icon-clock-o"></span><span class="text">Saturday - Sunday 8:00am - 5:00pm</span></li>
-						</ul>
-					  </div>
-					<!-- <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
-					  <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-					  <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-					  <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-					</ul> -->
-				  </div>
-				</div>
-			  </div>
-			  <div class="row">
-				<div class="col-md-12 text-center">
-	  
-				  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-		<!-- Copyright &copy;<script>document.write(new Date().getFullYear());</script>  <i class="icon-heart" aria-hidden="true"></i> by <a href="#" target="_blank"></a> -->
-		<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-				</div>
-			  </div>
-			</div>
-		  </footer>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="logo"><i class="flaticon-cross"><a href="index.php"></i><span>Worship Center</span><span>Church</span></a></h2>
+              <p>We are a cell-based community PAG Church in Lira City, Northern -Uganda.</p>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h2 class="ftco-heading-2">Quick Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="about.php" class="py-2 d-block">About Us</a></li>
+                <li><a href="events.php" class="py-2 d-block">Events</a></li>
+                <li><a href="sermons.php" class="py-2 d-block">Sermons</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Contact Information</h2>
+              <ul class="list-unstyled">
+                <!-- <li><a href="#" class="py-2 d-block">Next to Gas Petrol Station, Ireda Lumumba, Lira City</a></li> -->
+           
+            
+                <li><a href="tel:+256 760 111 806"><span class="icon icon-phone "></span><span class="text"> &nbsp MTN: +256 760 111 806 </span></a></li>
+                  <li><a href="tel:+256 701 738 759"><span class="icon icon-phone "></span><span class="text">&nbsp Airtel: +256 701 738 759 </span></a></li>
+                  <li><a href="mailto:info@worshipcenterdowntown.com" class="py-2 d-block">info@worshipcenterdowntown.com</a></li>
+       
+                
+              
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Location</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	               
+	                <!-- <li><a href="tel:+256 760 111 806"><span class="icon icon-phone"></span><span class="text">MTN: +256 760 111 806 </span></a></li>
+                  <li><a href="tel:+256 701 738 759"><span class="icon icon-phone"></span><span class="text">Airtel: +256 701 738 759 </span></a></li> -->
+                  <li><span class="icon icon-map-marker"></span> <span class="text"> Behind Golden Park, Near Juba Market Lira City</span></li>
+	                <li><span class="icon icon-clock-o"></span><span class="text">Saturday - Sunday 8:00am - 5:00pm</span></li>
+	              </ul>
+	            </div>
+              <!-- <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul> -->
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  <!-- Copyright &copy;<script>document.write(new Date().getFullYear());</script>  <i class="icon-heart" aria-hidden="true"></i> by <a href="#" target="_blank"></a> -->
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
     
   
 

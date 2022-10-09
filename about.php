@@ -463,7 +463,6 @@
     		</div>
     	</div>
     </section> -->
-
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
         <div class="row mb-5">
@@ -480,9 +479,6 @@
                 <li><a href="about.php" class="py-2 d-block">About Us</a></li>
                 <li><a href="events.php" class="py-2 d-block">Events</a></li>
                 <li><a href="sermons.php" class="py-2 d-block">Sermons</a></li>
-             
-               
-
               </ul>
             </div>
           </div>
@@ -492,8 +488,11 @@
               <ul class="list-unstyled">
                 <!-- <li><a href="#" class="py-2 d-block">Next to Gas Petrol Station, Ireda Lumumba, Lira City</a></li> -->
            
-                <li><a href="#" class="py-2 d-block">worshipcenterlira@gmail.com</a></li>
-                <li><a href="#" class="py-2 d-block">+256 760 111 806 </a></li>
+            
+                <li><a href="tel:+256 760 111 806"><span class="icon icon-phone "></span><span class="text"> &nbsp MTN: +256 760 111 806 </span></a></li>
+                  <li><a href="tel:+256 701 738 759"><span class="icon icon-phone "></span><span class="text">&nbsp Airtel: +256 701 738 759 </span></a></li>
+                  <li><a href="mailto:info@worshipcenterdowntown.com" class="py-2 d-block">info@worshipcenterdowntown.com</a></li>
+       
                 
               
               </ul>
@@ -501,10 +500,12 @@
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Location</h2>
             	<div class="block-23 mb-3">
 	              <ul>
 	               
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+256 760 111 806</span></a></li>
+	                <!-- <li><a href="tel:+256 760 111 806"><span class="icon icon-phone"></span><span class="text">MTN: +256 760 111 806 </span></a></li>
+                  <li><a href="tel:+256 701 738 759"><span class="icon icon-phone"></span><span class="text">Airtel: +256 701 738 759 </span></a></li> -->
                   <li><span class="icon icon-map-marker"></span> <span class="text"> Behind Golden Park, Near Juba Market Lira City</span></li>
 	                <li><span class="icon icon-clock-o"></span><span class="text">Saturday - Sunday 8:00am - 5:00pm</span></li>
 	              </ul>
@@ -527,7 +528,6 @@
         </div>
       </div>
     </footer>
-    
   
 
   <!-- loader -->
