@@ -107,7 +107,7 @@
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-10 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
             <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">  <strong>Worship Center Downtown</strong></h1>
-            <p data-scrollax="properties: { translateY: '90%', opacity: 0 }"><a href="events.php"  class="btn btn-primary btn-outline-white px-4 py-3 downloadbtn">Marriage Review Registration</a></p>
+            <!-- <p data-scrollax="properties: { translateY: '90%', opacity: 0 }"><a href="events.php"  class="btn btn-primary btn-outline-white px-4 py-3 downloadbtn">Marriage Review Registration</a></p> -->
           </div>
         </div>
       </div>
